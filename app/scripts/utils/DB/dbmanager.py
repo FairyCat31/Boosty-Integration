@@ -18,6 +18,7 @@ class DBType:
     ONLINE_FORMAT = "://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
     MariaDB = "mariadb+pymysql" + ONLINE_FORMAT
     MySQL = "mysql+pymysql" + ONLINE_FORMAT
+    PostgreSQL = "postgresql+psycopg2" + ONLINE_FORMAT
     SQLite3 = "sqlite:////" + launch_path + "/app/data/local_dbs/{db_name}.db"
 
 

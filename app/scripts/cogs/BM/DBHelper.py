@@ -7,7 +7,7 @@ from typing import List
 
 class DBManagerForBoosty(DBManager):
     def __init__(self):
-        super().__init__("test", DBType.MySQL)
+        super().__init__("web_unimice", DBType.PostgreSQL)
 
 
     @DBManager.db_session
